@@ -6,18 +6,19 @@
 ### Installation
 
 1. clone the project
-2. create a `JBOSS` or any other JEE Application Server 
+2. create a `JBOSS` (Wildfly now) or any other JEE Application Server 
 3. create a `management user`
 4. set up a driver for the target database in `JBOSS`
 5. create a `datasource` in the `JBOSS` Server and test it
-6. go to `ejbModule/META-INF/persistance.xml` and put the name of the created `datasource`
+7. go to `ejbModule/META-INF/persistance.xml` and put the name of the created `datasource`
    ```sh
     <>
        <jta-data-source>java:/MySqlDS</jta-data-source> 
     </>
    ```
-  
-3. Deploy the EJB and run the server
+8. in `java build path` of the EJB specify `Java path` as a java version `>=` java version of the server
+9. specify `Server Runtime` as the created `JBOSS Server`
+10. `Deploy` the `EJB` and `run` the server
 
 
 
