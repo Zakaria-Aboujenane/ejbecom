@@ -1,9 +1,12 @@
 # ejbecom
-##
-### Built with
+- A small EJB Project that can be used for E-Commerce Websites or Services
+- EJB E-commerce
+- JAVA
+## Built with
 [![java][java.com]][java-url]
 [![ejb][ejb.com]][ejb-url]
-### Installation
+
+## Installation
 
 1. clone the project
 2. create a `JBOSS` (Wildfly now) or any other JEE Application Server 
