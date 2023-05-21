@@ -16,7 +16,7 @@
        <jta-data-source>java:/MySqlDS</jta-data-source> 
     </>
    ```
-8. in `java build path` of the EJB specify `Java path` as a java version `>=` java version of the server
+8. in `java build path` of the EJB specify `Java path` as a java version `<=` java version of the server
 9. specify `Server Runtime` as the created `JBOSS Server`
 10. `Deploy` the `EJB` and `run` the server
 
